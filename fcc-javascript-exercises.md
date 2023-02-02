@@ -7,7 +7,7 @@ Master Git/GitHub
 Master JavaScript
 
 ## BASIC JAVASCRIPT
-======
+===================
 ## Exercise 1: Comment Your JavaScript Code
 
 // I-type ang double forward slash para magdagdag ng inline comment.
@@ -19,7 +19,7 @@ mahabang multi-line comment*/
 ## Exercise 2: Declare JavaScript Variables
 Use the var keyword to create a variable called myName.
 
-```var myName;```
+`var myName;`
 
 ## Storing Values with the Assignment Operator
 Assign the value 7 to variable a.
@@ -30,7 +30,7 @@ var a;
 
 // Only change code below this line
 a = 7;
-
+```
 
 
 
