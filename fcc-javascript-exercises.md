@@ -63,7 +63,7 @@ Create two new string variables: myFirstName and myLastName and assign them the 
 var myFirstName = "John";
 var myLastName = "Javier";
 ```
-* We declare a variable with the keyword "var" in JavaScript, unlike in Python we do not. And end each with a ";". "let" and "const" are used instead of "var" in modern JavaScript development, ref: ES6.*
+*We declare a variable with the keyword "var" in JavaScript, unlike in Python we do not. And end each with a ";". "let" and "const" are used instead of "var" in modern JavaScript development, ref: ES6.*
 
 ## Exercise 7: Understanding Unitiatialized Variables
 Initialize the three variables a, b, and c with 5, 10, and "I am a" respectively so that they will not be undefined.
@@ -104,7 +104,82 @@ let catName = "Oliver";
 let catSound = "Meow!";
 ```
 
+## Exercise 9: Declare a Read-Only Variable with the const Keyword
+Change the code so that all variables are declared using let or const. Use let when you want the variable to change, and const when you want the variable to remain constant. Also, rename variables declared with const to conform to common practices. Do not change the strings assigned to the variables.
 
+```
+const FCC = "freeCodeCamp"; // Change this line
+let fact = "is cool!"; // Change this line
+fact = "is awesome!";
+console.log(FCC, fact); // Change this line
+```
+
+*Use const to declare read-only variables, that cannot be reassigned, unlike that of "let" and "var"* 
+
+## Exercise 10: Add Two Numbers with JavaScript
+Change the 0 so that sum will equal 20. 
+
+```
+const sum = 10 + 10;
+```
+
+## Exercise 11: Subtract Two Numbers with JavaScript
+Change the 0 so the difference is 12.
+
+```
+const difference = 45 - 33;
+```
+
+## Exercise 12: Multiply Two Numbers with JavaScript
+Change the 0 so that the product will equal 80. 
+
+```
+const product = 8 * 10;
+```
+
+
+## Exercise 13: Divide One Number by Another with JavaScript
+Change the 0 so that the quotient is equal to 2. 
+
+```
+const quotient = 66/33;
+```
+
+## Exercise 14: Increment a Number with JavaScript
+Change the code to use the ++ operator on my myVar. 
+
+```
+let myVar = 87;
+
+// Only change code below this line
+myVar++;
+```
+
+## Exercise 15: Decrement a Number with JavaScript
+Change the code to use -- operator on myVar
+
+```
+let myVar =11;
+myVar--;
+```
+
+## Exercise 16: Create Decimal Numbers with JavaScript
+Create a variable myDecimal and give it a decimal value with a fractional part (e.g. 5.7)
+
+```
+const ourDecimal = 5.7;
+
+// Only change code below this line
+
+const myDecimal = 3.14;
+```
+
+## Multiply Two Decimals with JavaScript
+Change the 0.0 so that product will equal 5.0.
+
+```
+const product =2.0 * 2.5;
+```
 
 
 
