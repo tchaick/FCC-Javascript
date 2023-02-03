@@ -2,11 +2,11 @@
 
 This repository contains my solutions to the freecodecamp JavaScript Algorithms and Data Structures exercises. 
 Completed to improve muscle memory in coding. Learning by doing. 
-Master JavaScript
-Master Markdown
-Master Git/GitHub
+- [x] Learn and master JavaScript
+- [x] Learn and master Markdown
+- [x] Learn and master Git/GitHub
 
-
+---
 ## **Basic JavaScript**
 ---
 ### Exercise 1: Comment Your JavaScript Code
@@ -275,9 +275,48 @@ const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 ```
 
 
+### Exercise 26: Escape Sequence in Strings
+---
+|**Good to Know**|Code|Output|
+|---|---|---|
+||\\'|single quote|
+||\\"|double quote|
+||\\\\ |backslash|
+||\\n|newline|
+||\\t|tab|
+||\\r|carriage return|
+||\\b|word boundary|
+||\\f|form feed|
+--- 
+
+Assign the following three lines of text into the single variable myStr using escape sequences.
+```
+FirstLine
+    \SecondLine
+ ThirdLine
+```
+
+```
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
+```
 
 
+### Exercise 26: Concatenating Strings with Plus Operator
+ Build myStr from the strings This is the start. and This is the end. using the + operator. Be sure to include a space between the two strings.
+```
+const myStr ="This is the start. "+"This is the end.";
+```
 
+
+### Exercise 27: Concatenating Strings with the Plus Equals Operator
+Build myStr over several lines by concatenating these two strings: This is the first sentence. and This is the second sentence. using the += operator. Use the += operator similar to how it is shown in the example and be sure to include a space between the two strings. Start by assigning the first string to myStr, then add on the second string.
+```
+let myStr = "This is the first sentence. ";
+myStr += "This is the second sentence."
+```
+
+
+### Exercise 28: Constructing Strings with Variables
 
 
 
