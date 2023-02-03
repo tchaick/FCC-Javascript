@@ -1,14 +1,15 @@
-# **JavaScript Exercises**
+# **Basic Javascript**
 
 This repository contains my solutions to the freecodecamp JavaScript Algorithms and Data Structures exercises. 
-Completed to improve muscle memory in coding. Learning by doing. 
+Completed to improve muscle memory in coding. This is learning by doing. 
 - [x] Learn and master JavaScript
 - [x] Learn and master Markdown
 - [x] Learn and master Git/GitHub
 
+
 ---
-## **Basic JavaScript**
----
+
+
 ### Exercise 1: Comment Your JavaScript Code
 Try creating one of each type of comment.
 
@@ -317,6 +318,35 @@ myStr += "This is the second sentence."
 
 
 ### Exercise 28: Constructing Strings with Variables
+Set myName to a string equal to your name and build myStr with myName between the strings My name is and and I am well!
+
+```
+// Only change code below this line
+const myName = "Juanito";
+const myStr = "My name is "+ myName + " and I am well!";
+```
+
+### Exercise 29: Appending Variables to Strings
+Set someAdjective to a string of at least 3 characters and append it to myStr using the += operator.
+
+```
+// Change code below this line
+const someAdjective = "adventure!";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
+```
+
+### Exercise 30: Find the Length of a String
+Use the .length property to set lastNameLength to the number of characters in lastName.
+```
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length; //<should be equal to eight
+
+
 
 
 
