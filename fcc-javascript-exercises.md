@@ -7,14 +7,15 @@ Master Git/GitHub
 Master JavaScript
 
 ## BASIC JAVASCRIPT
-===================
+---
 ## Exercise 1: Comment Your JavaScript Code
+
 ```
 // I-type ang double forward slash para magdagdag ng inline comment.
 
 /* Gayahin ang format na ito 
 kung kinakailangan magdagdag ng
-mahabang multi-line comment*/
+mahabang multi-line comment */
 ```
 ## Exercise 2: Declare JavaScript Variables
 Use the var keyword to create a variable called myName.
