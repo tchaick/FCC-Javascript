@@ -513,12 +513,61 @@ const removedFromMyArray = myArray.shift();
 
 Add ["Paul", 35] to the beginning of the myArray variable using unshift().
 
+```
 // Setup
 const myArray = [["John", 23], ["dog", 3]];
 myArray.shift();
 
 // Only change code below this line
 myArray.unshift(["Paul",35]); //
+```
+
+### Exercise 46: Shopping List
+Create a shopping list in the variable myList. The list should be a multi-dimensional array containing several sub-arrays.
+
+```
+const myList =[["shampoo", 1,],["conditioner",2],["soap", 6], ["sponge", 3], ["detergent soap",1]];
+```
+
+### Exercise 47: Write Reusable JavaScript with Function
+1. Create a function called reusableFunction which prints the string Hi World to the dev console.
+2. Call the function.
+
+```
+function reusableFunction() {
+  console.log("Hi World")
+}
+
+reusableFunction()
+```
+
+
+### Exercise 48: Passing Values to Functions with Arguments
+1. Create a function called functionWithArgs that accepts two arguments and outputs their sum to the dev console.
+2. Call the function with two numbers as arguments.
+
+```
+function functionWithArgs(arg1,arg2){
+  console.log(arg1 + arg2);
+}
+
+functionWithArgs(4,5)
+```
+
+
+### Exercise 49: Return a Value From a Function with Return
+Create a function timesFive that accepts one argument, multiplies it by 5, and returns the new value.
+```
+function timesFive(num) {
+  return num * 5 ;
+}
+
+const answer = timesFive(9);
+```
+
+
+### Exercise 50: Global Scope and Functions
+
 
 
 
