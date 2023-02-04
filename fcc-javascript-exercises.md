@@ -345,6 +345,114 @@ const lastName = "Lovelace";
 
 // Only change code below this line
 lastNameLength = lastName.length; //<should be equal to eight
+```
+
+### Exercise 31: Use Bracket Notation to Find the First Character in a String
+Use bracket notation to find the first character in the lastName variable and assign it to firstLetterOfLastName.
+```
+// Setup
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0]; // Change this line
+```
+
+### Exercise 32: Understand String Immutability
+
+**Good to know!** *String values are immutable, which means that they they cannot be altered once created, but they can be re-assigned with a new value.*
+
+Correct the assignment to myStr so it contains the string value of Hello World using the approach shown in the example above.
+```
+// Setup
+let myStr = "Jello World";
+
+// Only change code below this line
+myStr = "Hello World"; // Change this line
+// Only change code above this line
+```
+
+### Exercise 33: Use Bracket Notation to Find the Nth Character in a String
+
+Let's try to set thirdLetterOfLastName to equal the third letter of the lastName variable using bracket notation.
+```
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const thirdLetterOfLastName = lastName[2]; // Change this line
+```
+
+### Exercise 34: Use Bracket Notation to Find the Last Character in a String
+```
+Use bracket notation to find the last character in the lastName variable. 
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const lastLetterOfLastName = lastName[lastName.length -1]; // Change this line
+```
+
+### Exercise 35: Use Bracket Notation to Find the Nth-to-Last Character in a String
+Use bracket notation to find the second-to-last character in the lastName string.
+```
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastName[lastName.length -2]; // Change this line
+```
+
+### Exercise 36: Word Blanks
+In this challenge, we provide you with a noun, a verb, an adjective and an adverb. You need to form a complete sentence using words of your choice, along with the words we provide.
+
+You will need to use the string concatenation operator + to build a new string, using the provided variables: myNoun, myAdjective, myVerb, and myAdverb. You will then assign the formed string to the wordBlanks variable. You should not change the words assigned to the variables.
+
+You will also need to account for spaces in your string, so that the final sentence has spaces between all the words. The result should be a complete sentence.
+
+```
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Only change code below this line
+const wordBlanks = "My " + myNoun + " is " + myAdjective + ". He just " + myVerb + " so " + myAdverb + " to me now."; // Change this line
+// Only change code above this line
+```
+
+### Exercise 37: Store Multiple Values in one Variable using JavaScript Arrays
+Modify the new array myArray so that it contains both a string and a number (in that order).
+```
+const myArray = ["one", 1, "two", 2, "three", 3];
+```
+
+
+### Exercise 38: Nest one Array within Another Array
+Create a nested array called myArray.
+
+```
+const myArray = [["one", 1],["two", 2],["three", 3]];
+```
+
+
+### Exercise 39: Access Array Data with Indexes
+Create a variable called myData and set it to equal the first value of myArray using bracket notation.
+```
+const myArray = [50, 60, 70];
+const myData =myArray[0];
+```
+
+### Exercise 40: Modify Array Data With Indexes
+**Good to know!** *Entries of arrays are mutable and can be changed freely.*
+```
+// Setup
+const myArray = [18, 64, 99];
+
+// Only change code below this line
+myArray[0] = 45;
+```
+
 
 
 
