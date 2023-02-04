@@ -231,7 +231,9 @@ a -= 6;
 b -= 15;
 c -= 1;
 ```
-## Exercise 22: Compound Assignment With Augmented Multiplication
+
+
+### Exercise 22: Compound Assignment With Augmented Multiplication
 Convert the assignments for a, b, and c to use the *= operator.
 ```
 let a = 5;
@@ -243,6 +245,8 @@ a *= 5;
 b *= 3;
 c *= 10;
 ```
+
+
 ### Exercise 23: Compound Assignment With Augmented Division
 Convert the assignments for a, b, and c to use the /= operator.
 
@@ -452,6 +456,71 @@ const myArray = [18, 64, 99];
 // Only change code below this line
 myArray[0] = 45;
 ```
+
+### Exercise 41: Access Multi-Dimensional Arrays With Indexes
+Using bracket notation select an element from myArray such that myData is equal to 8.
+```
+const myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+const myData = myArray[2][1];
+```
+
+
+### Exercise 42: Manipulate Arrays With push Method
+Push ["dog", 3] onto the end of the myArray variable.
+
+```// Setup
+const myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+myArray.push(["dog",3]);
+```
+
+### Exercise 43: Manipulate Arrays With pop Method
+**Good to know!** *.push is to add a value at the end of the array, while .pop is to change/replace the end of the array with a new value.*
+
+Use the .pop() function to remove the last item from myArray and assign the popped off value to a new variable, removedFromMyArray.
+
+const myArray = [["John", 23], ["cat", 2]];
+```
+// Setup
+const myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+const removedFromMyArray = myArray.pop();
+```
+
+
+### Exercise 44: Manipulate Arrays With shift Method
+Use the .shift() function to remove the first item from myArray and assign the "shifted off" value to a new variable, removedFromMyArray.
+
+```
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+
+// Only change code below this line
+const removedFromMyArray = myArray.shift();
+```
+
+
+### Exercise 45: Manipulate Arrays With unshift Method
+**Good to know!** *.unshift method works like the .push, but instead replaces the element at the beginning of the array.*
+
+Add ["Paul", 35] to the beginning of the myArray variable using unshift().
+
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+
+// Only change code below this line
+myArray.unshift(["Paul",35]); //
+
+
 
 
 
