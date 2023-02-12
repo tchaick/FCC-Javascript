@@ -672,6 +672,78 @@ myOutfit();
 
 ### Exercise 55: Understanding Undefined Value returned from a Function
 
+Create a function addFive without any arguments. This function adds 5 to the sum variable, but its returned value is undefined.
+
+```
+// Setup
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+// Only change code below this line
+function addFive() {
+  sum = sum + 5; // or sum += 5
+}
+// Only change code above this line
+
+addThree();
+addFive();
+```
+
+
+### Exercise 56: Assignment with a Returned Value
+
+Call the processArg function with an argument of 7 and assign its return value to the variable processed.
+```
+// Setup
+let processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+// Only change code below this line
+processed = processArg(7)
+```
+
+
+### Exercise 57: Stand in Line
+
+Write a function nextInLine which takes an array (arr) and a number (item) as arguments.
+Add the number to the end of the array, then remove the first element of the array.
+The nextInLine function should then return the element that was removed.
+
+```
+function nextInLine(arr, item) {
+  // Only change code below this line
+  arr.push(item);
+  return arr.shift();
+  // Only change code above this line
+}
+```
+
+
+### Exercise 58: Understanding Boolean Values
+
+Modify the welcomeToBooleans function so that it returns true instead of false when the run button is clicked.
+```
+function welcomeToBooleans() {
+  // Only change code below this line
+
+  return true; // Change this line
+
+  // Only change code above this line
+}
+```
+
+
+### Exercise 59: Use Conditional Logic with If Statements
+
+### Exercise 60:
+### Exercise 56:
+### Exercise 56:
 
 
 
