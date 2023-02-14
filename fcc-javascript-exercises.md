@@ -848,11 +848,94 @@ function testGreaterThan(val) {
 testGreaterThan(10);
 ```
 
-### Exercise 66: Practice comparing different values
-### Exercise 67: Practice comparing different values
-### Exercise 68: Practice comparing different values
-### Exercise 69: Practice comparing different values
-### Exercise 70: Practice comparing different values
+### Exercise 66: Comparison with the Greater Than Or Equal to Operator
+Add the greater than or equal to operator to the indicated lines so that the return statements make sense.
+```
+function testGreaterOrEqual(val) {
+  if (val >= 20) {  // Change this line
+    return "20 or Over";
+  }
+
+  if (val >=10) {  // Change this line
+    return "10 or Over";
+  }
+
+  return "Less than 10";
+}
+
+testGreaterOrEqual(10);
+```
+
+
+### Exercise 67: Comparison with the Less Than Operator
+Add the less than operator to the indicated lines so that the return statements make sense. 
+```
+function testLessThan(val) {
+  if (val < 25) {  // Change this line
+    return "Under 25";
+  }
+
+  if (val < 55) {  // Change this line
+    return "Under 55";
+  }
+
+  return "55 or Over";
+}
+
+testLessThan(10);
+```
+
+### Exercise 68: Comparison with the Less Than or Equal to Operator
+Add the less than or equal to operator to the indicated lines so that the return statements make sense.
+
+```
+function testLessOrEqual(val) {
+  if (val <= 12) {  // Change this line
+    return "Smaller Than or Equal to 12";
+  }
+
+  if (val <= 24) {  // Change this line
+    return "Smaller Than or Equal to 24";
+  }
+
+  return "More Than 24";
+}
+
+testLessOrEqual(10);
+```
+### Exercise 69: Comparisons with the Logical AND Operator
+Replace the two if statements with one statement, using the && operator, which will return the string Yes if val is less than or equal to 50 and greater than or equal to 25. Otherwise, will return the string No.
+```
+function testLogicalAnd(val) {
+  // Only change code below this line
+
+  if (val <= 50 && val >= 25) {
+         return "Yes";
+    }
+    // Only change code above this line
+  return "No";
+}
+
+testLogicalAnd(10);
+```
+
+### Exercise 70: Comparisons with the Logical OR Operator
+Combine the two if statements into one statement which returns the string Outside if val is not between 10 and 20, inclusive. Otherwise, return the string Inside.
+```
+function testLogicalOr(val) {
+  // Only change code below this line
+
+  if (val < 10 || val > 20) {
+    return "Outside";
+  }
+
+  // Only change code above this line
+  return "Inside";
+}
+
+testLogicalOr(15);
+```
+
 
 
 
