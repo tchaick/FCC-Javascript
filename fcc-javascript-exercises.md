@@ -937,6 +937,148 @@ testLogicalOr(15);
 ```
 
 
+### Exercise 71: Introducing Else Statements
+
+Combine the if statements into a single if/else statement. 
+```
+function testElse(val) {
+  let result = "";
+  // Only change code below this line
+
+  if (val > 5) {
+    result = "Bigger than 5";
+  }
+
+    else {
+      result = "5 or Smaller";
+  }
+
+  // Only change code above this line
+  return result;
+}
+
+testElse(4);
+```
+
+
+### Exercise 72: Introducing Else If Statements
+
+Convert the logic to use `else if` statements. 
+```
+function testElseIf(val) {
+  if (val > 10) {
+    return "Greater than 10";
+  }
+
+  else if (val < 5) {
+    return "Smaller than 5";
+  }
+
+  else { return "Between 5 and 10";
+  }
+}
+
+testElseIf(7);
+```
+
+### Exercise 73: Logical Order in If Else Statements
+
+Change the order of logic in the function so that it will return the correct statements in all cases.
+
+```
+function orderMyLogic(val) {
+  if (val < 5) {
+    return "Less than 5";
+  } else if (val < 10) {
+    return "Less than 10";
+  } else {
+    return "Greater than or equal to 10";
+  }
+}
+
+
+
+orderMyLogic(7);
+```
+
+### Exercise 74: Chaining If Else Statements
+
+Write chained if/else if statements to fulfill the following conditions:
+
+num < 5 - return Tiny
+num < 10 - return Small
+num < 15 - return Medium
+num < 20 - return Large
+num >= 20 - return Huge
+
+```
+function testSize(num) {
+  // Only change code below this line
+if (num < 5) {
+  return "Tiny"; 
+} else if (num < 10){
+  return "Small";
+} else if (num < 15){
+  return "Medium";
+} else if (num < 20){
+  return "Large";
+} else {
+  return "Huge";
+}
+  // Only change code above this line
+}
+
+testSize(7);
+```
+
+### Exercise 75: Golf Code
+In the game of Golf, each hole has a par, meaning, the average number of strokes a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below par your strokes are, there is a different nickname.
+
+Your function will be passed par and strokes arguments. Return the correct string according to this table which lists the strokes in order of priority; top (highest) to bottom (lowest):
+
+| Strokes | Return |
+| ___ | ___ |
+| 1	| "Hole-in-one!" |
+| <= par - 2 |	"Eagle" |
+| par - 1 |"Birdie" |
+| par | "Par"|
+| par + 1 | "Bogey" |
+| par + 2 | "Double Bogey" |
+| >= par + 3 | "Go Home!" |
+par and strokes will always be numeric and positive. We have added an array of all the names for your convenience.
+
+
+```
+const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+
+function golfScore(par, strokes) {
+  // Only change code below this line
+  if (strokes == 1){
+    return names[0];
+  }
+  else if (strokes <= par - 2){
+    return names[1];
+  }
+  else if (strokes == par - 1){
+    return names[2];
+  }
+  else if (strokes == par){
+    return names[3];
+  }
+  else if (strokes == par + 1){
+    return names[4];
+  }
+  else if (strokes == par + 2)
+    return names[5];
+  else{
+    return names[6];
+  }
+  // Only change code above this line
+}
+
+golfScore(5, 4);
+```
+
 
 
 
