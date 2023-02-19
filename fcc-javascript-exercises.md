@@ -1310,6 +1310,7 @@ cc(2); cc(3); cc(7); cc('K'); cc('A');
 ```
 
 
+
 ### Exercise 83: Build JavaScript Objects
 
 Make an object that represents a dog called myDog which contains the properties name (a string), legs, tails and friends.
@@ -1329,5 +1330,22 @@ const myDog = {
 ```
 
 
+
+### Exercise 84: Accessing Object Properties with Dot Notation
+
+Read in the property values of testObj using dot notation. Set the variable hatValue equal to the object's property hat and set the variable shirtValue equal to the object's property shirt.
+
+```
+// Setup
+const testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+// Only change code below this line
+const hatValue = testObj.hat;      // Change this line
+const shirtValue = testObj.shirt;    // Change this line
+```
 
 
