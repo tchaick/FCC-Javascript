@@ -1624,7 +1624,7 @@ function updateRecords(records, id, prop, value) {
 }
 
 updateRecords(recordCollection, 5439, 'artist', 'ABBA');
-
+```
 
 
 ### Exercise 96: Iterate with JavaScript While Loops
@@ -1677,7 +1677,7 @@ for (let i = 1; i <=9; i +=2){
 
 
 
-### Exercise 90: Count Backwards With a For Loop
+### Exercise 99: Count Backwards With a For Loop
 
 Push the odd numbers from 9 through 1 to `myArray` using `for` loop. 
 
@@ -1693,7 +1693,23 @@ for (let i = 9; i >= 1; i-=2 ){
 
 
 
-### Exercise 91: 
+### Exercise 100: 
+
+Declare and initialize a variable total to 0. Use a for loop to add the value of each element of the myArr array to total.
+
+```
+// Setup
+const myArr = [2, 3, 4, 5, 6];
+
+// Only change code below this line
+
+let total = 0
+
+for (let i = 0; i < myArr.length; i++){
+  total += myArr[i]
+}
+```
+
 
 
 
