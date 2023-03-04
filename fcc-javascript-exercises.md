@@ -1660,6 +1660,44 @@ for (let i=1; i <=5; i++) {
 ```
 
 
+### Exercise 98: Iterate Odd Numbers With a For Loop
+
+Push the odd numbers from 1 through 9 to myArray using a `for` loop.
+
+```
+// Setup
+const myArray = [];
+
+// Only change code below this line
+
+for (let i = 1; i <=9; i +=2){
+  myArray.push(i);
+}
+```
+
+
+
+### Exercise 90: Count Backwards With a For Loop
+
+Push the odd numbers from 9 through 1 to `myArray` using `for` loop. 
+
+```
+// Setup
+const myArray = [];
+
+// Only change code below this line
+for (let i = 9; i >= 1; i-=2 ){
+  myArray.push(i);
+}
+```
+
+
+
+### Exercise 91: 
+
+
+
+
 
 
 
