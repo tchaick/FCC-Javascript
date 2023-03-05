@@ -1693,7 +1693,7 @@ for (let i = 9; i >= 1; i-=2 ){
 
 
 
-### Exercise 100: 
+### Exercise 100: Iterate Through an Array with a For Loop
 
 Declare and initialize a variable total to 0. Use a for loop to add the value of each element of the myArr array to total.
 
