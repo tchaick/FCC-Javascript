@@ -57,6 +57,7 @@ var b;
 b = a
 ```
 
+
 ### Exercise 5: Initializing Variables with the Assignment Operator
 Define a variable a with var and initialize it to a value of 9
 
@@ -64,7 +65,9 @@ Define a variable a with var and initialize it to a value of 9
 var a = 9;
 ```
 
+
 ### Exercise 6: Declare String Variables
+
 Create two new string variables: myFirstName and myLastName and assign them the values of your first and last name, respectively.
 
 ```
@@ -1753,6 +1756,22 @@ do {
 
 
 
+### Exercise 103: Replace Loops using Recursion
 
+
+Write a recursive function, sum(arr, n), that returns the sum of the first n elements of an array arr.
+
+
+```
+function sum(arr, n) {
+  // Only change code below this line
+  if (n <= 0) {
+    return 0;
+  } else {
+    return sum(arr, n-1) + arr[n -1];
+  }
+  // Only change code above this line
+}
+```
 
 
